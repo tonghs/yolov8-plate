@@ -1,7 +1,6 @@
 import datetime
 from typing import Tuple, List
 
-import pytz
 import torch
 import cv2
 import numpy as np
