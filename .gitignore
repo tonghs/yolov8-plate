@@ -31,3 +31,4 @@ pretrained_model/
 !*.yaml
 !*.ttf
 !*.cu
+.idea/

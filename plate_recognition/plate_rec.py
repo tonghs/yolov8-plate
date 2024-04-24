@@ -34,7 +34,7 @@ def decodePlate(preds):
         pre=preds[i]
     return newPreds,index
 
-def image_processing(img,device):
+def image_processing(img, device):
     img = cv2.resize(img, (168,48))
     img = np.reshape(img, (48, 168, 3))
 
